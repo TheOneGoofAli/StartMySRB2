@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StartMySRB2", "StartMySRB2.vbproj", "{494AB4AC-31EF-4E1D-AFD6-22BF04536151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{494AB4AC-31EF-4E1D-AFD6-22BF04536151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494AB4AC-31EF-4E1D-AFD6-22BF04536151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494AB4AC-31EF-4E1D-AFD6-22BF04536151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494AB4AC-31EF-4E1D-AFD6-22BF04536151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57F90986-51ED-4BF2-9AB0-7476A1DF3BA6}
+	EndGlobalSection
+EndGlobal
