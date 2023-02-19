@@ -187,12 +187,17 @@
             IPAddress.Enabled = True
             SkipIntro.Enabled = False
             SkipIntro.Checked = False
+            PortNumber.Enabled = False
+            PortChange.Enabled = False
+            PortChange.Checked = False
         Else
             LoadAddons.Enabled = True
             HostServer.Enabled = True
             WarpMap.Enabled = True
             IPAddress.Enabled = False
             SkipIntro.Enabled = True
+            PortNumber.Enabled = True
+            PortChange.Enabled = True
         End If
     End Sub
 
@@ -242,6 +247,10 @@
         If ValidToggle(WarpMap) And MapID.Enabled And MapID.Text <> "" Then
             Dim WarpFlag As String = "-warp " + MapID.Text
             CmdArgs = sb.Append(WarpFlag).ToString
+        End If
+        If ValidToggle(ConnectIP) And IPAddress.Text <> "" Then
+            Dim Connect As String = "-connect " + IPAddress.Text
+            CmdArgs = sb.Append(Connect).ToString
         End If
         If CmdArgs <> "" Then
             CmdArgs.TrimEnd()
