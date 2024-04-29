@@ -1,7 +1,7 @@
 # <div align="center">StartMySRB2</div>
 <div align="center">Yet another one of those launchers.
 
-![alt text](https://cdn.discordapp.com/attachments/637177717086879747/1060740189594583070/image.png)</div>
+![alt text](https://raw.githubusercontent.com/TheOneGoofAli/StartMySRB2/master/SMSRB2.png)</div>
  - Automatically saves last executable used upon selecting a valid .exe.
 	 - This stays between each launch of the application. To clear it out, double-click on the textbox with the file path while holding down SHIFT.
  - Built with .NET Framework 2.0, this launcher can be ran on Windows 98 or ME provided you installed it there first.
